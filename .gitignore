@@ -1,6 +1,23 @@
+.env
+
 scratch
 *.sw[op]
 *.log
 .DS_Store
 node_modules
 dist
+.aider*
+.local
+
+__pycache__
+
+# jest
+.coverage
+.ruff_cache
+
+# IDE
+.idea/
+
+# examples related
+examples/**/package-lock.json
+examples/redteam-dalle/images
